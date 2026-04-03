@@ -1,0 +1,68 @@
+<Meta name="Simple_2L_VSC_RLC">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="Simple_2L_VSC_RLC" id="808183522" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.0]]></message>
+    <message status="normal" label="build" groupid="100006" id="109725307" classid="CmpNavigator">
+      <User scope="Simple_2L_VSC_RLC" name="VSC2L" status="normal" link="406903800" /><![CDATA[Compiling 'VSC2L'. Generating network and data files.]]></message>
+    <message status="normal" label="build" groupid="100006" id="1361321857" classid="CmpNavigator">
+      <User scope="Simple_2L_VSC_RLC" name="abc2dq_1" status="normal" link="437604403" /><![CDATA[Compiling 'abc2dq_1'. Generating network and data files.]]></message>
+    <message status="normal" label="build" groupid="100006" id="1799529941" classid="CmpNavigator">
+      <User scope="Simple_2L_VSC_RLC" name="dq2abc" status="normal" link="1390813666" /><![CDATA[Compiling 'dq2abc'. Generating network and data files.]]></message>
+    <message status="normal" label="build" groupid="100006" link="212166038" id="212166038" classid="FileNavigator"><![CDATA[Generating 'C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46\Simple_2L_VSC_RLC.map'.]]><file scope="Simple_2L_VSC_RLC">C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46\Simple_2L_VSC_RLC.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="Simple_2L_VSC_RLC" id="1944192573" classid="MessageObj"><![CDATA[The total number of live nodes: 15]]></message>
+    <message status="normal" label="build" groupid="0" link="1362025265" id="1362025265" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46\\Simple_2L_VSC_RLC.mak']]><file scope="Simple_2L_VSC_RLC">C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46\\Simple_2L_VSC_RLC.mak</file></message>
+    <message status="normal" label="build" groupid="100001" scope="Simple_2L_VSC_RLC" id="574558862" classid="MessageObj"><![CDATA[Non-professional licenses are limited to a single, electrical subsystem. Subsystem splitting has been internally disabled for this simulation.]]></message>
+    <message status="normal" label="build" groupid="400000" scope="Simple_2L_VSC_RLC" id="1531685331" classid="MessageObj"><![CDATA[Time for Compile: 376ms  Make: 0ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="Simple_2L_VSC_RLC" id="1858668717" classid="MessageObj"><![CDATA[Solve Time = 16ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Simple_2L_VSC_RLC" id="196192278" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Simple_2L_VSC_RLC" id="1823585550" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Simple_2L_VSC_RLC" id="858442047" classid="MessageObj"><![CDATA[Will execute (2): make -j -f Simple_2L_VSC_RLC.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Simple_2L_VSC_RLC" id="657705538" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46\Simple_2L_VSC_RLC_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="Simple_2L_VSC_RLC" id="415932442" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="Simple_2L_VSC_RLC" id="888560152" classid="MessageObj"><![CDATA[C:\Users\karth_i5aicws\Downloads\BTP\pscad_models\project\Simple_2L_VSC_RLC.gf46>call "C:\Program Files (x86)\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100004" scope="Simple_2L_VSC_RLC" id="2020178541" classid="MessageObj"><![CDATA[Compiling 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" groupid="100013" scope="Simple_2L_VSC_RLC" id="500817313" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'Simple_2L_VSC_RLC.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="Simple_2L_VSC_RLC" id="1034008043" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.0]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Simple_2L_VSC_RLC:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="VSC2L" zoomscale="1.25" scrollx="0" scrolly="0" />
+    <View name="dq2abc" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="abc2dq_1" zoomscale="1.5" scrollx="0" scrolly="0" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2025/10/30" time="14:54:52.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="10000.0" end="50000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):v_abc" index="1" gindex="100663297" id="431408548:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):p_PCC" index="4" gindex="100663300" id="356542758:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):q_PCC" index="5" gindex="100663301" id="1625536428:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):v_mag" index="6" gindex="100663302" id="46969987:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):V_t" index="7" gindex="100663303" id="1625148532:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):q_ref" index="10" gindex="100663306" id="44733095:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0):p_ref" index="11" gindex="100663307" id="871266058:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):Vdq_t" index="12" gindex="100663308" id="296199232:0" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):e_Q" index="14" gindex="100663310" id="777509603:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):e_P" index="15" gindex="100663311" id="486086707:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):iq_ref" index="16" gindex="100663312" id="1349460627:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):id_ref" index="17" gindex="100663313" id="583897024:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):id" index="18" gindex="100663314" id="1082020965:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):vd" index="19" gindex="100663315" id="1447076827:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):iq" index="20" gindex="100663316" id="1807957770:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):vq" index="21" gindex="100663317" id="1855899117:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):e_PLL" index="22" gindex="100663318" id="1342825666:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):RT_49" index="23" gindex="100663319" id="1064361619:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):theta" index="24" gindex="100663320" id="160017666:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):eq_CL" index="25" gindex="100663321" id="1770143088:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):vc_q" index="26" gindex="100663322" id="1444391173:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):i_mag" index="27" gindex="100663323" id="1901877114:0" label="" dim="1" unit="" min="1.07075518" max="1.07075524" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):RT_45" index="28" gindex="100663324" id="1005015395:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):vc_d" index="29" gindex="100663325" id="127073282:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\VSC2L(IBR equivalent):ed_CL" index="30" gindex="100663326" id="409547622:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

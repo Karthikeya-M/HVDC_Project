@@ -1,0 +1,13 @@
+<Meta name="Simple_2L_VSC_RLC">
+  <messagelist>
+    <message status="error" label="build" groupid="300503" id="101606427" classid="CmpNavigator">
+      <User scope="Simple_2L_VSC_RLC" name="Z_tool:ACscan" status="error" link="546001545" /><![CDATA[Unable to resolve definition 'Z_tool:ACscan']]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Simple_2L_VSC_RLC:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5" scrollx="0" scrolly="36" />
+    <View name="VSC2L" zoomscale="1.5" scrollx="88" scrolly="118" />
+  </List>
+</Meta>
